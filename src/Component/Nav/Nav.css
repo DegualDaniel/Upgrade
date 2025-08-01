@@ -1,0 +1,151 @@
+ nav{ 
+    /* background-color: yellow; */
+    background-color: transparent;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: .9em 5em; 
+    font-family: "Poppins", sans-serif; 
+ }
+
+.logo{
+    display: flex;
+    align-items: center;  
+}
+.logo img{
+    width: 100%;
+    height: auto;
+} 
+nav ul{
+    display: flex;
+    gap: 8px;
+    list-style: none;  
+}
+
+nav ul li{
+    height:40px ; 
+    font-weight: 250;  
+}
+
+nav ul a{
+    text-decoration: none; 
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    padding: 0 20px;  
+    color: white;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+    border: none;
+    /* font-weight: 500; */
+}
+nav a:hover{ 
+    color: white; 
+    transition: all 0.5s ease-in-out;
+    border:1px solid  #00B512;  
+}
+
+.nav-btn{ 
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px 30px; 
+  font-size: 15px; 
+  transition: all 0.5s ease-in-out;
+  color: white;
+  border:1px solid white;
+} 
+.nav-btn:hover{
+    border:1px solid  #00B512;  
+}
+ 
+.menu{
+    /* background-color: red; */
+    list-style: none;
+    text-decoration: none;
+    display: none; 
+}
+
+/* MEDIA QUERY  */
+/* Small Screens: max-width 768px */
+@media (max-width: 768px) {
+  nav { 
+    align-items: flex-start;
+    padding: 1em 0; 
+    /* background-color: red; */
+  }
+  nav ul{ 
+    flex-direction: column;
+    width: 100%;
+     display: none;
+     margin-top: 1em; 
+  }
+    nav ul.active {
+    display: flex;
+     /* show when menu is toggled */
+  }
+
+nav ul li{ 
+    width: 100%; 
+}
+
+nav ul a{
+
+  padding: 15px 20px;
+    width: 100%;
+    justify-content: flex-start; 
+}  
+.btn{ 
+  display: none; 
+}
+.menu{ 
+    display: block; 
+} 
+ /* .menu-toggle {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+  } */
+ 
+
+  /* nav ul.active { */
+    /* display: flex; */
+     /* show when menu is toggled */
+  /* } */ 
+ 
+}
+
+
+
+/* Medium Screens: 769px–1024px */
+@media (min-width: 769px) and (max-width: 1024px) { 
+  nav { 
+    align-items: flex-start;
+    padding: 1em 2em; 
+  }
+  nav ul{  
+    flex-direction: column;
+    width: 100%;
+     display: none;
+     margin-top: 1em; 
+  }
+    nav ul.active {
+    display: flex;
+     /* show when menu is toggled */
+  }
+
+nav ul li{ 
+    width: 100%; 
+}
+
+nav ul a{
+
+  padding: 15px 20px;
+    width: 100%;
+    justify-content: flex-start; 
+}  
+.menu{ 
+    display: block; 
+}
+
+}

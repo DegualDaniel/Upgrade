@@ -1,0 +1,131 @@
+
+.testimonial{
+    background-color: #F6F9F8;
+    padding: 3rem 5rem;
+}
+
+.test-cont1{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    align-items: center;
+    
+}
+.test-title{
+    background-color: #EAECF0;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px ;
+    width: fit-content;
+    border-radius: 50px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: 450; 
+}
+.test-title p{
+     padding-left: 3px;
+}
+.test-title:hover{
+    transition: all.3s ease-in-out; 
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.1);  */
+    transform: scale(1.05);
+    
+}
+.test-head{
+   font-family: 'Integral CF Regular' , sans-serif;  
+   padding: 1rem 0;
+}
+.test-head h2{
+    font-size: 2.5rem; 
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/* CLIENT IMAGE SECTION  */
+.test-cont2{
+    /* background-color: yellow;  */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: 0 auto;
+    width: 95%;
+    padding: 1rem;
+    gap: 30px;
+}
+.test-cont1-bx1{
+    /* background-color: tan; */
+    width: 100%;
+    margin: 0 auto;
+}
+.test-cont1-bx1 img{ 
+    width: 100%; 
+}
+
+/* Medium Screens: 769px–1024px */ 
+@media (max-width: 1024px){
+
+.testimonial{
+    /* background-color: rebeccapurple; */
+    /* background-color: #F6F9F8; */
+    padding:2rem;
+}
+.test-cont1{ 
+    padding: 1rem; 
+    text-align: center;
+    
+}
+/* CLIENT IMAGE SECTION  */
+.test-cont2{
+    margin: 1rem auto;
+    width: 100%;
+    padding: 1rem;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+}
+
+/* MEDIA QUERY  */
+/* Small Screens: max-width 768px */
+@media (max-width: 768px) {
+.testimonial{ 
+    padding:1rem;
+}
+
+
+/* CLIENT IMAGE SECTION  */
+.test-cont2{
+    /* background-color: yellow;  */
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    /* align-items: center; */
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    gap: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

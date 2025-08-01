@@ -1,0 +1,165 @@
+.feature{
+     padding: 3rem 5rem;
+     /* background-color: tan; */
+}
+.feature-sec{ 
+     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    padding: 0 .5rem;
+}
+.feature-sec1{ 
+     /* background-color: teal; */
+    padding: 2rem;
+    width: 90%;
+    margin: 0 auto; 
+}
+.feature-title{
+    background-color: #EAECF0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px ;
+    width: fit-content;
+    border-radius: 50px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 450; 
+}
+.feature-title p{
+     padding-left: 3px;
+}
+.feature-head{ 
+   font-family: 'Integral CF Regular' , sans-serif; 
+   margin: 15px 0;
+   /* background-color: red; */
+}
+.feature-head h2{
+    font-size: 2.5rem; 
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.feature-text{ 
+     margin: 10px 0;
+}
+.feature-text p{
+    font-weight: 400;
+    font-size: 1rem;
+    color:#6B6969; 
+    margin-bottom: 20px;
+}
+.feature-btn{
+     margin-top: 25px;
+}
+.feature-btn button{
+     border-radius: 28px;
+     padding: 10px 30px; 
+     font-size: 13px; 
+     transition: all 0.5s ease-in-out;
+     border: 1px solid #00B512;
+     background-color: transparent;
+     color: black;
+    font-weight: 600; 
+}
+.feature-btn button:hover{
+    transform: scale(1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.feature-sec2{
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: red; */
+
+}
+.feature-sec2 img{
+     width: 100%;     
+     /* transition: box-shadow 0.3s ease-in-out; */
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);  */
+} 
+.feature-sec2 img:hover{
+     /* transition: box-shadow 0.5s ease-in; */
+    /* box-shadow: 0 1px 12px rgba(0, 0, 0, 0.158); */
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+}
+
+/* MEDIA QUERY  */
+/* Small Screens: max-width 768px */
+@media (max-width: 768px) {
+
+.feature{
+     padding: 2rem 1rem;  
+     /* background-color:red; */
+} 
+
+}
+
+/* Medium Screens: 769px–1024px */ 
+@media (max-width: 1024px){
+
+.feature{
+     padding: 2rem ;  
+     /* text-align: center; */
+}
+.feature-sec{ 
+    grid-template-columns:1fr; 
+    gap: 20px;
+    padding: 0 1rem; 
+}
+.feature-sec1{ 
+    padding: .5rem;
+    width: 100%; 
+    /* background-color: indianred; */
+}
+.feature-sec2{
+    width: 100%; 
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
