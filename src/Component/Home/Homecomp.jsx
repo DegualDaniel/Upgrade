@@ -20,7 +20,7 @@ const Homecomp = () => {
         <div className='cont1-text'>
           <h1>FINANCE WITH
             SECURITY AND <br />
-            <span>FLEXIBILITY...</span>
+            <span>FLEXIBILITY</span>
           </h1>
         </div>
         <div className='cont1-text2'>
