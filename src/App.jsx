@@ -13,8 +13,7 @@ import TrustPage from "./Page/TrustPage";
  
 
 
-function App() { 
-
+function App() {  
   return (
     <div> 
     <HomePage /> 

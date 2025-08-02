@@ -1,7 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import scan from '../../assets/scan-group.png'
-// import ftLogo from '../../assets/upgrade-logo.png'
+import scan from '../../assets/scan-group.png' 
 import playStore from '../../assets/last logo.png'
 import fb from '../../assets/fb.png'
 import ig from '../../assets/ig.png'
@@ -31,17 +30,11 @@ const FooterComp = () => {
 
         {/* FOOTER SECTION 2  */}
         <div className="ft-sec2">
-            <div>
-
-                {/* LOGO */}
-                {/* <div className='ft-logo'>
-                    <img src={ftLogo} alt="" />
-                </div> */}
+            <div> 
 
                 {/* PLAYSTORE */}
                 <div className='ft-store'>
-                    <img src={playStore} alt="" />
-                    {/* <img src={playStore2} alt="" /> */}
+                    <img src={playStore} alt="" /> 
                 </div>
                 {/* LINKS */}
                 <div className="links">

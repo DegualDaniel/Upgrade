@@ -13,30 +13,7 @@ const Navcomp = () => {
     }
   }; 
   return (
-    // <div> 
-    //     <nav>
-    //         <div className="logo">
-    //         <img src={Logo} alt=""/> 
-    //         </div> 
-
-    //         <ul className={`nav-links ${isOpen ? "open" : ""}`} > 
-    //             <li><a href="../../Component/About/AboutComp.jsx">Personal Loan</a></li>
-    //             <li><a href="#">One Card</a></li>
-    //             <li><a href="#">Savings</a></li>
-    //             <li><a href="#">Checking</a></li>
-    //             <li><a href="#">Help</a></li>
-    //         </ul>
-    //         <div className="btn">
-    //             <button className='nav-btn'>Sign In</button>
-    //         </div> 
-    //         {/* MENU  */}
-    //             <div className="menu" onClick={toggleMenu} > 
-    //             <img src={Menu} alt=""/>
-    //             </div> 
-    //     </nav>
-    // </div>
-
-
+    
  <div> 
       <nav>
         <div className="logo">
@@ -44,7 +21,7 @@ const Navcomp = () => {
         </div>
 
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-          <li><a href="../../Component/About/AboutComp.jsx">Personal Loan</a></li>
+          <li><a href="#">Personal Loan</a></li>
           <li><a href="#">One Card</a></li>
           <li><a href="#">Savings</a></li>
           <li><a href="#">Checking</a></li>

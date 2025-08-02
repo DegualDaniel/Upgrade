@@ -3,8 +3,7 @@ import './Home.css'
 import Navcomp from '../Nav/Navcomp'
 import hero from '../../assets/home-img.png'
 import fire from '../../assets/fire.png'
-import arrow from '../../assets/Right Button.png'
-// import SponsorComp from '../Sponsor/SponsorComp'
+import arrow from '../../assets/Right Button.png' 
 const Homecomp = () => {
   return (
     <div className='home'>
